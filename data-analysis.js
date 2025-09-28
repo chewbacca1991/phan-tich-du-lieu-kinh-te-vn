@@ -1,8 +1,8 @@
-// Mô-đun phân tích dữ liệu
+// Data analysis module
 
 function analyzeData(data) {
-  // Thực hiện phân tích dữ liệu
-  // Trả về kết quả phân tích
+  // Perform data analysis
+  // Return analysis result
 }
 
 module.exports = { analyzeData };
