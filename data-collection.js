@@ -1,4 +1,4 @@
-// Mô-đun thu thập dữ liệu kinh tế
+// Module to collect economic data
 
 const axios = require('axios');
 
