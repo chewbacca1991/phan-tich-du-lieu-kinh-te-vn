@@ -1,10 +1,10 @@
-// Mô-đun tạo báo cáo
+// Module for report generation
 
 const PDFDocument = require('pdfkit');
 
 function generatePDFReport(data) {
   const doc = new PDFDocument();
-  // Thêm nội dung vào báo cáo PDF
+  // Add content to the PDF report
   return doc;
 }
 
