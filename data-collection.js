@@ -8,7 +8,7 @@ async function fetchEconomicData(apiUrl) {
     return response.data;
   } catch (error) {
     console.error('Error while fetching data:', error);
-    return null;
+    return { error: 'Failed to fetch economic data' };
   }
 }
 
