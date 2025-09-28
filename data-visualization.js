@@ -2,8 +2,11 @@
 
 function visualizeData(data) {
   // Validate input data
-  if (!Array.isArray(data) || data.length === 0) {
-    throw new Error('Invalid data: must be a non-empty array.');
+  if (!Array.isArray(data)) {
+    throw new Error('Invalid data: must be an array.');
+  }
+  if (data.length === 0) {
+    throw new Error('Invalid data: array must not be empty.');
   }
   // Perform data visualization using D3.js
   // Using D3.js for creating interactive charts and graphs
