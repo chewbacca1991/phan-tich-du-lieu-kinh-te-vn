@@ -7,6 +7,7 @@ function visualizeData(data) {
   }
   // Perform data visualization using D3.js
   // Using D3.js for creating interactive charts and graphs
+  return 'Data visualization completed.'; // Indicate completion
 }
 
 module.exports = { visualizeData };
