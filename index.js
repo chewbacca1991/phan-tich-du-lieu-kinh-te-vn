@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng bạn đến với dự án Phân Tích Dữ Liệu Kinh Tế Việt Nam!');
+  res.send('Chào mừng bạn đến với dự án Phân Tích Dữ Liệu Kinh Tế Việt Nam! Chúng tôi rất vui được có bạn ở đây!');
 });
 
 app.listen(port, () => {
