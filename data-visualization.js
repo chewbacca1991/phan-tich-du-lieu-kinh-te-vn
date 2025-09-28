@@ -1,7 +1,7 @@
-// Mô-đun trực quan hóa dữ liệu
+// Data visualization module
 
 function visualizeData(data) {
-  // Thực hiện trực quan hóa dữ liệu bằng D3.js
+  // Perform data visualization using D3.js
 }
 
 module.exports = { visualizeData };
