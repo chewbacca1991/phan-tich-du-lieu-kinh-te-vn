@@ -7,7 +7,7 @@ async function fetchEconomicData(apiUrl) {
     const response = await axios.get(apiUrl);
     return response.data;
   } catch (error) {
-    console.error('Lỗi khi thu thập dữ liệu:', error);
+    console.error('Error while fetching data:', error);
     return null;
   }
 }
