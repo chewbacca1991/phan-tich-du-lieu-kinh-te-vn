@@ -1,4 +1,4 @@
-// Mô-đun thu thập dữ liệu
+// Mô-đun thu thập dữ liệu kinh tế
 
 const axios = require('axios');
 
